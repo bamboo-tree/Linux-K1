@@ -1,0 +1,2 @@
+which <nazwa programu>, which ls
+find /usr/lib -iname *cups*

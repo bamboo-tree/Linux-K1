@@ -1,0 +1,4 @@
+cd ./katalogtestowy/podkatalog1
+tar -cvzf ../jadzia.tar ./
+cd..
+tar -C ./podkatalog2 -xvzf ./jadzia.tar

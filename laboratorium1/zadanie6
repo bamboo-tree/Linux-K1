@@ -1,0 +1,4 @@
+find ./katalog -name plik
+find ./katalog -type f
+find ./katalog -type f | find ./katalog -name plik
+find ./katalog -type d | find ./katalog -name plik

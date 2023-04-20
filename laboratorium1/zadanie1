@@ -1,0 +1,1 @@
+man printf | cat | tail -3 | head -1

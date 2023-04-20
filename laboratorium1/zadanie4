@@ -1,0 +1,14 @@
+mkdir kat
+chmod u+r+w+x ./kat
+chmod g+r+w+x ./kat
+chmod o-r+w+x ./kat
+cd kat
+touch plik.txt
+chmod a-r-w-x ./plik.txt
+chmod u+r+w ./plik.txt
+chmod g+r+w ./plik.txt
+
+a) nie
+b) nie
+c) nie
+d) nie
