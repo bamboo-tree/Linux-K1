@@ -1,0 +1,7 @@
+awk '{
+printf("|");
+for(i = 0; i < $0; i++){
+printf("#");
+}
+print("");
+}' test

@@ -1,0 +1,4 @@
+for f in *.{jpg,jpeg,JPG,JPEG}; do echo $f; done
+
+z tym cos kombinowac
+

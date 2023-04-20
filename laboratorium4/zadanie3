@@ -1,0 +1,2 @@
+cat /etc/passwd | sed -n '/nologin/!p' | sed -n '/false$/!p' | awk '{ print $2 }' | sort
+[troche srednio z sortowaniem, ale tak to jest ok]
