@@ -1,0 +1,20 @@
+thebeatles: thebeatles.o libgr.a libjp.a
+	gcc -o thebeatles thebeatles.o libjp.a libgr.a
+thebeatles.o: thebeatles.c
+	gcc -c thebeatles.c -o thebeatles.o
+pj.o: pj.c
+	gcc -c pj.c
+pp.o: pp.c
+	gcc -c pp.c
+libjp.a: pj.o pp.o
+	ar rc -o libjp.a pj.o pp.o
+pr.o: pr.c
+	gcc -c pr.c
+pg.o: pg.c
+	gcc -c pg.c
+#w teorii powinno byc
+#libgr.so: pr.o pg.o
+# gcc -shared -o libgr.so pr.o pg.o
+#ale mi nie znajduje, mimo ze widac
+libgr.a: pg.o pr.o
+	ar rc -o libgr.a pg.o pr.o

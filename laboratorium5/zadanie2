@@ -1,0 +1,18 @@
+2)
+
+gcc -c pj.c -o pj.o
+gcc -c pp.c -o pp.o
+gcc -c pg.c -o pg.o
+gcc -c pr.c -o pr.o
+
+ar rc -o libpj.a pp.o pj.o
+gcc -shared -o libgr.so pg.o pr.o
+[u mnie nie dziala na komputerze, ale w teorii powinno]
+[zamiast tego dalem]
+ar rc -o libgr.a pg.o pp.o
+
+gcc -c thebeatles.c -o thebeatles.o
+
+gcc -o thebeatles thebeatles.o libgr.a libpj.a
+[dziala]
+

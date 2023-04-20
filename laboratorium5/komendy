@@ -1,0 +1,103 @@
+1.
+
+gcc -o thebeatles thebeatles.c pj.c pp.c pg.c pr.c
+
+2.
+
+gcc -c pj.c -o pj.c pp.c pg.c pr.c thebeatles.c
+
+wszystkie pliki obiektowe na raz
+
+
+
+gcc -c pj.c
+gcc -c pp.c
+ar rcs libjp.a pj.o pp.o
+...
+
+
+
+// makefile 1
+
+.PHONY: clean
+
+
+pj.o: pj.c
+	gcc -c pj.c
+pp.o: pp.c
+	gcc -c pp.c
+libjp.a: pj.o pp.o
+	ar rcs libjp.a pj.o pp.o
+pg.o: pg.c
+	gcc -c pg.c
+pr.o: pr.c
+	gcc -c pr.c
+libgr.so: pg.o pr.o
+	gcc -shared -o libgr.so pg.o pr.o
+thebeatles.o: thebeatles.c
+	gcc -c thebeatles.c
+thebeatles: thebeatles.o libjp.a libgr.so
+	gcc -o thebeatles.o libjp.a libgr.so
+clean:
+	rm thebeatles *.o *.a *.so
+
+
+
+
+
+// makefile 2
+
+.PHONY: clean
+.SUFIXES: .c .o .a .so
+
+
+pj.o: pj.c
+	gcc -c $<
+pp.o: pp.c
+	gcc -c $<
+libjp.a: pj.o pp.o
+	ar rcs $@ $^
+pg.o: pg.c
+	gcc -c $<
+pr.o: pr.c
+	gcc -c $<
+libgr.so: pg.o pr.o
+	gcc -shared -o $@ $^
+thebeatles.o: thebeatles.c
+	gcc -c $<
+thebeatles: thebeatles.o libjp.a libgr.so
+	gcc -o $@ $^
+clean:
+	rm thebeatles *.o *.a *.so
+
+
+
+
+// makefile 3
+
+.PHONY: clean
+.SUFIXES: .c .o .a .so
+
+.c.o:
+    gcc -c $<
+lib%p.a: p%.o
+    ar rcs $@ $^
+lib%r.so: p%.o
+    gcc -shared -o $@ $^
+%: %.o
+    gcc -o $@ $^
+
+
+
+
+pj.o: pj.c
+pp.o: pp.c
+libjp.a: pj.o pp.o
+pg.o: pg.c
+pr.o: pr.c
+libgr.so: pg.o pr.o
+thebeatles.o: thebeatles.c
+thebeatles: thebeatles.o libjp.a libgr.so
+
+clean:
+	rm thebeatles *.o *.a *.so

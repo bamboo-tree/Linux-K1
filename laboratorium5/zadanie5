@@ -1,0 +1,33 @@
+5)
+Makefile3
+
+
+.PHONY: cleand
+.SUFIXES: .c .o .a
+
+.c.o:
+	gcc -c $<
+.o:
+	gcc -o $@ $^
+
+
+thebeatles: thebeatles.o libgr.a libjp.a
+thebeatles.o: thebeatles.c
+pj.o: pj.c
+pp.o: pp.c
+libjp.a: pj.o pp.o
+	ar rc -o $@ $^
+pr.o: pr.c
+pg.o: pg.c
+#w teorii powinno byc
+#libgr.so: pr.o pg.o
+# gcc -shared -o $@ $^
+#ale mi nie znajduje, mimo ze widac
+libgr.a: pg.o pr.o
+	ar rc -o $@ $^
+
+clean:
+	rm -f thebeatles *.o *.a
+	
+make -f Makefile 3 thebeatles
+./thebeatles

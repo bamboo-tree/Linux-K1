@@ -1,0 +1,4 @@
+1)
+gcc -o thebeatles thebeatles.c pj.c pp.c pr.c pg.c
+[tworzy plik thebeatles, zeby uruchomic ./thebeatles]
+

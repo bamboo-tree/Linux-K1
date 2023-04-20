@@ -1,0 +1,27 @@
+4)
+Makefile2
+
+thebeatles: thebeatles.o libgr.a libjp.a
+	gcc -o $@ $^
+thebeatles.o: thebeatles.c
+	gcc -c $< -o $@
+pj.o: pj.c
+	gcc -c $<
+pp.o: pp.c
+	gcc -c $<
+libjp.a: pj.o pp.o
+	ar rc -o $@ $^
+pr.o: pr.c
+	gcc -c $<
+pg.o: pg.c
+	gcc -c $<
+#w teorii powinno byc
+#libgr.so: pr.o pg.o
+# gcc -shared -o $@ $^
+#ale mi nie znajduje, mimo ze widac
+libgr.a: pg.o pr.o
+	ar rc -o $@ $^
+	
+make -f Makefile2 thebeatles
+./thebeatles
+
