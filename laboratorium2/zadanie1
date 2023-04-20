@@ -1,0 +1,22 @@
+1.
+ls /etc -S -l
+[mozna dodac -r dla odwrotnej kolejnosci]
+
+2.
+ls /etc -lt | tee katalog.txt | tail -10
+
+3.
+find /usr -iname mod | tee menu.txt
+
+4.
+find /usr/sbin | grep "/usr/sbin/[^x].*fs.*" > 111.txt
+[mialo nie uzywac find, ale nic innego nie moglem wymyslic]
+
+5.
+cat /etc/passwd | tail -30 | head -3
+
+6.
+ls /home/student/ | sort
+
+7.
+ls /home/student/ -l | sort -k 3

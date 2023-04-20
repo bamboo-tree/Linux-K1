@@ -1,0 +1,16 @@
+1.
+find / -type f | sort
+
+2.
+cat all_files | grep ".*\.h$" > all_h
+
+3.
+a)
+find /usr -size -2 | grep ".*\.c$" | wc -l
+
+b)
+cat `find /usr/include | grep ".*\.h$"` | grep "#define" | wc -l
+
+4.
+ls /etc -S -l
+

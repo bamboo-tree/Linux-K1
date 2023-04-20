@@ -1,0 +1,369 @@
+total 35800
+-rwxr-xr-x 1 root root      3068 paź 19 16:52 aa-remove-unknown
+-rwxr-xr-x 1 root root     64120 paź 19 16:52 aa-status
+-rwxr-xr-x 1 root root       137 lut 10  2022 aa-teardown
+-rwxr-xr-x 1 root root     14904 mar 17  2022 accessdb
+-rwxr-xr-x 1 root root     56336 sty 25  2022 acpid
+-rwxr-xr-x 1 root root      3075 lip  4  2022 addgnupghome
+lrwxrwxrwx 1 root root         7 kwi 13 17:42 addgroup -> adduser
+-rwxr-xr-x 1 root root      1051 mar 23  2022 add-shell
+-rwxr-xr-x 1 root root     38247 sty  6  2021 adduser
+-rwxr-xr-x 1 root root     56888 lut 21  2022 agetty
+-rwxr-xr-x 1 root root      5576 lut 22  2021 alsa
+-rwxr-xr-x 1 root root      4136 sty 12  2022 alsabat-test
+-rwxr-xr-x 1 root root    122416 sty 12  2022 alsactl
+-rwxr-xr-x 1 root root     28679 sty 12  2022 alsa-info
+-rwxr-xr-x 1 root root     34992 mar 23  2022 anacron
+-rwxr-xr-x 1 root root   1543872 paź 19 16:52 apparmor_parser
+lrwxrwxrwx 1 root root         9 paź 19 16:52 apparmor_status -> aa-status
+-rwxr-xr-x 1 root root      2217 lip  4  2022 applygnupgdefaults
+-rwxr-xr-x 1 root root      1394 mar 17  2022 aptd
+-rwxr-xr-x 1 root root     26960 mar 24  2022 arpd
+lrwxrwxrwx 1 root root        27 kwi 13 17:42 arptables -> /etc/alternatives/arptables
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 arptables-nft -> xtables-nft-multi
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 arptables-nft-restore -> xtables-nft-multi
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 arptables-nft-save -> xtables-nft-multi
+lrwxrwxrwx 1 root root        35 kwi 13 17:42 arptables-restore -> /etc/alternatives/arptables-restore
+lrwxrwxrwx 1 root root        32 kwi 13 17:42 arptables-save -> /etc/alternatives/arptables-save
+-rwxr-xr-x 1 root root     13726 gru  2  2021 aspell-autobuildhash
+-rwxr-xr-x 1 root root     43248 mar 23  2022 avahi-autoipd
+-rwxr-xr-x 1 root root    154120 mar 23  2022 avahi-daemon
+-rwxr-xr-x 1 root root     35144 cze  2  2022 badblocks
+-rwxr-xr-x 1 root root     23760 sie 24  2022 biosdecode
+-rwxr-xr-x 1 root root     16351 lut 16  2022 blkdeactivate
+-rwxr-xr-x 1 root root     22904 lut 21  2022 blkdiscard
+-rwxr-xr-x 1 root root     51616 lut 21  2022 blkid
+-rwxr-xr-x 1 root root     35192 lut 21  2022 blkzone
+-rwxr-xr-x 1 root root     31096 lut 21  2022 blockdev
+lrwxrwxrwx 1 root root        27 kwi 13 17:42 bluetoothd -> ../lib/bluetooth/bluetoothd
+-rwxr-xr-x 1 root root     94712 mar 24  2022 bridge
+lrwxrwxrwx 1 root root        11 kwi 13 17:42 brltty -> /bin/brltty
+-rwxr-xr-x 1 root root      1416 lis 17  2021 brltty-setup
+-rwxr-xr-x 1 root root     31032 mar 24  2022 capsh
+-rwxr-xr-x 1 root root     97000 lut 21  2022 cfdisk
+-rwxr-xr-x 1 root root    154096 mar 23  2022 cgdisk
+-rwxr-xr-x 1 root root     35136 lut 24  2022 chat
+-rwxr-xr-x 1 root root     31096 lut 21  2022 chcpu
+-rwxr-xr-x 1 root root     59528 lis 24 13:05 chgpasswd
+-rwxr-xr-x 1 root root     35192 lut 21  2022 chmem
+-rwxr-xr-x 1 root root     55464 lis 24 13:05 chpasswd
+-rwxr-xr-x 1 root root     39424 lut  7  2022 chroot
+lrwxrwxrwx 1 root root         4 kwi 13 17:42 cpgr -> cppw
+-rwxr-xr-x 1 root root     49448 lis 24 13:05 cppw
+-rwxr-xr-x 1 root root     14488 mar 17  2022 cracklib-check
+-rwxr-xr-x 1 root root       231 mar 17  2022 cracklib-format
+-rwxr-xr-x 1 root root     14488 mar 17  2022 cracklib-packer
+-rwxr-xr-x 1 root root     14488 mar 17  2022 cracklib-unpacker
+-rwxr-xr-x 1 root root       990 mar 17  2022 create-cracklib-dict
+-rwxr-xr-x 1 root root     51792 mar 23  2022 cron
+-rwxr-xr-x 1 root root     14712 lut 21  2022 ctrlaltdel
+-rwxr-xr-x 1 root root     14648 maj 27  2022 cupsaccept
+-rwxr-xr-x 1 root root    219856 kwi 11  2022 cups-browsed
+-rwxr-xr-x 1 root root     14720 maj 27  2022 cupsctl
+-rwxr-xr-x 1 root root    482144 maj 27  2022 cupsd
+lrwxrwxrwx 1 root root        10 kwi 13 17:42 cupsdisable -> cupsaccept
+lrwxrwxrwx 1 root root        10 kwi 13 17:42 cupsenable -> cupsaccept
+-rwxr-xr-x 1 root root     43616 maj 27  2022 cupsfilter
+lrwxrwxrwx 1 root root        10 kwi 13 17:42 cupsreject -> cupsaccept
+-rwxr-xr-x 1 root root     82448 mar 24  2022 dcb
+-rwxr-xr-x 1 root root    235320 cze  2  2022 debugfs
+lrwxrwxrwx 1 root root         7 kwi 13 17:42 delgroup -> deluser
+-rwxr-xr-x 1 root root     16495 sty  6  2021 deluser
+lrwxrwxrwx 1 root root         9 kwi 13 17:42 depmod -> /bin/kmod
+-rwxr-xr-x 1 root root    146288 mar 24  2022 devlink
+-rwxr-xr-x 1 root root    453280 sty 31 22:54 dhclient
+-rwxr-xr-x 1 root root     16304 sty 31 22:54 dhclient-script
+-rwxr-xr-x 1 root root    121840 sie 24  2022 dmidecode
+-rwxr-xr-x 1 root root    175112 lut 16  2022 dmsetup
+lrwxrwxrwx 1 root root         7 kwi 13 17:42 dmstats -> dmsetup
+-rwxr-xr-x 1 root root    454336 paź 14  2022 dnsmasq
+lrwxrwxrwx 1 root root         8 kwi 13 17:42 dosfsck -> fsck.fat
+lrwxrwxrwx 1 root root         8 kwi 13 17:42 dosfslabel -> fatlabel
+-rwxr-xr-x 1 root root      3663 lut 20  2022 dpkg-preconfigure
+-rwxr-xr-x 1 root root      4485 lut 20  2022 dpkg-reconfigure
+-rwxr-xr-x 1 root root     31040 cze  2  2022 dumpe2fs
+-rwxr-xr-x 1 root root     14648 cze  2  2022 e2freefrag
+-rwxr-xr-x 1 root root    360280 cze  2  2022 e2fsck
+-rwxr-xr-x 1 root root     43328 cze  2  2022 e2image
+lrwxrwxrwx 1 root root         7 kwi 13 17:42 e2label -> tune2fs
+lrwxrwxrwx 1 root root         8 kwi 13 17:42 e2mmpstatus -> dumpe2fs
+-rwxr-xr-x 1 root root      7296 cze  2  2022 e2scrub
+-rwxr-xr-x 1 root root      5395 cze  2  2022 e2scrub_all
+-rwxr-xr-x 1 root root     22840 cze  2  2022 e2undo
+-rwxr-xr-x 1 root root     31104 cze  2  2022 e4crypt
+-rwxr-xr-x 1 root root     31032 cze  2  2022 e4defrag
+lrwxrwxrwx 1 root root        26 kwi 13 17:42 ebtables -> /etc/alternatives/ebtables
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 ebtables-nft -> xtables-nft-multi
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 ebtables-nft-restore -> xtables-nft-multi
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 ebtables-nft-save -> xtables-nft-multi
+lrwxrwxrwx 1 root root        34 kwi 13 17:42 ebtables-restore -> /etc/alternatives/ebtables-restore
+lrwxrwxrwx 1 root root        31 kwi 13 17:42 ebtables-save -> /etc/alternatives/ebtables-save
+-rwxr-xr-x 1 root root     14488 lut  2 10:21 faillock
+-rwxr-xr-x 1 root root     39304 mar 23  2022 fatlabel
+-rwxr-xr-x 1 root root    113064 lut 21  2022 fdisk
+-rwxr-xr-x 1 root root     18760 cze  2  2022 filefrag
+-rwxr-xr-x 1 root root     14712 lut 21  2022 findfs
+-rwxr-xr-x 1 root root     59880 mar 23  2022 fixparts
+-rwxr-xr-x 1 root root     43432 lut 21  2022 fsck
+-rwxr-xr-x 1 root root     31160 lut 21  2022 fsck.cramfs
+lrwxrwxrwx 1 root root         6 kwi 13 17:42 fsck.ext2 -> e2fsck
+lrwxrwxrwx 1 root root         6 kwi 13 17:42 fsck.ext3 -> e2fsck
+lrwxrwxrwx 1 root root         6 kwi 13 17:42 fsck.ext4 -> e2fsck
+-rwxr-xr-x 1 root root     84360 mar 23  2022 fsck.fat
+-rwxr-xr-x 1 root root     55704 lut 21  2022 fsck.minix
+lrwxrwxrwx 1 root root         8 kwi 13 17:42 fsck.msdos -> fsck.fat
+lrwxrwxrwx 1 root root         8 kwi 13 17:42 fsck.vfat -> fsck.fat
+-rwxr-xr-x 1 root root     14712 lut 21  2022 fsfreeze
+-rwxr-xr-x 1 root root     18744 gru 14  2021 fstab-decode
+-rwxr-xr-x 1 root root     43384 lut 21  2022 fstrim
+-rwxr-xr-x 1 root root    178672 mar 23  2022 gdisk
+-rwxr-xr-x 1 root root    383688 sty 31 05:24 gdm3
+-rwxr-xr-x 1 root root     92608 mar 24  2022 genl
+-rwxr-xr-x 1 root root     14648 mar 24  2022 getcap
+-rwxr-xr-x 1 root root     14648 mar 24  2022 getpcaps
+lrwxrwxrwx 1 root root         6 kwi 13 17:42 getty -> agetty
+-rwxr-xr-x 1 root root     13984 mar 20 16:48 getweb
+-rwxr-xr-x 1 root root      2288 mar 11  2020 gnome-menus-blacklist
+-rwxr-xr-x 1 root root     68520 lis 24 13:05 groupadd
+-rwxr-xr-x 1 root root     64232 lis 24 13:05 groupdel
+-rwxr-xr-x 1 root root     55488 lis 24 13:05 groupmems
+-rwxr-xr-x 1 root root     68424 lis 24 13:05 groupmod
+-rwxr-xr-x 1 root root     59528 lis 24 13:05 grpck
+-rwxr-xr-x 1 root root     51208 lis 24 13:05 grpconv
+-rwxr-xr-x 1 root root     51208 lis 24 13:05 grpunconv
+lrwxrwxrwx 1 root root        35 kwi 13 17:42 grub-bios-setup -> ../lib/grub/i386-pc/grub-bios-setup
+-rwxr-xr-x 1 root root   1204128 gru  2 16:18 grub-install
+-rwxr-xr-x 1 root root    951408 gru  2 16:18 grub-macbless
+-rwxr-xr-x 1 root root      8805 gru  2 16:18 grub-mkconfig
+-rwxr-xr-x 1 root root    220880 gru  2 16:18 grub-mkdevicemap
+-rwxr-xr-x 1 root root    963952 gru  2 16:18 grub-probe
+-rwxr-xr-x 1 root root      4841 gru  2 16:18 grub-reboot
+-rwxr-xr-x 1 root root      3556 gru  2 16:18 grub-set-default
+lrwxrwxrwx 1 root root        14 mar 20 15:32 halt -> /bin/systemctl
+-rwxr-xr-x 1 root root    142776 mar 23  2022 hdparm
+-rwxr-xr-x 1 root root     51704 lut 21  2022 hwclock
+-rwxr-xr-x 1 root root     50480 sty 31  2021 hwinfo
+-rwxr-xr-x 1 root root     31128 lip  7  2022 iconvconfig
+lrwxrwxrwx 1 root root        20 mar 20 15:32 init -> /lib/systemd/systemd
+lrwxrwxrwx 1 root root         9 kwi 13 17:42 insmod -> /bin/kmod
+-rwxr-xr-x 1 root root      2659 mar 23  2022 installkernel
+-rwxr-xr-x 1 root root      4551 kwi  8  2020 install-sgmlcatalog
+-rwxr-xr-x 1 root root     16507 gru  7  2021 invoke-rc.d
+lrwxrwxrwx 1 root root         7 kwi 13 17:42 ip -> /bin/ip
+lrwxrwxrwx 1 root root        27 kwi 13 17:42 ip6tables -> /etc/alternatives/ip6tables
+lrwxrwxrwx 1 root root        14 kwi 13 17:42 ip6tables-apply -> iptables-apply
+lrwxrwxrwx 1 root root        20 kwi 13 17:42 ip6tables-legacy -> xtables-legacy-multi
+lrwxrwxrwx 1 root root        20 kwi 13 17:42 ip6tables-legacy-restore -> xtables-legacy-multi
+lrwxrwxrwx 1 root root        20 kwi 13 17:42 ip6tables-legacy-save -> xtables-legacy-multi
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 ip6tables-nft -> xtables-nft-multi
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 ip6tables-nft-restore -> xtables-nft-multi
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 ip6tables-nft-save -> xtables-nft-multi
+lrwxrwxrwx 1 root root        35 kwi 13 17:42 ip6tables-restore -> /etc/alternatives/ip6tables-restore
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 ip6tables-restore-translate -> xtables-nft-multi
+lrwxrwxrwx 1 root root        32 kwi 13 17:42 ip6tables-save -> /etc/alternatives/ip6tables-save
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 ip6tables-translate -> xtables-nft-multi
+-rwxr-xr-x 1 root root    182664 maj 27  2022 ippeveprinter
+-rwxr-xr-x 1 root root   5412720 mar 26  2022 ipp-usb
+lrwxrwxrwx 1 root root        26 kwi 13 17:42 iptables -> /etc/alternatives/iptables
+-rwxr-xr-x 1 root root      7057 sty 15  2021 iptables-apply
+lrwxrwxrwx 1 root root        20 kwi 13 17:42 iptables-legacy -> xtables-legacy-multi
+lrwxrwxrwx 1 root root        20 kwi 13 17:42 iptables-legacy-restore -> xtables-legacy-multi
+lrwxrwxrwx 1 root root        20 kwi 13 17:42 iptables-legacy-save -> xtables-legacy-multi
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 iptables-nft -> xtables-nft-multi
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 iptables-nft-restore -> xtables-nft-multi
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 iptables-nft-save -> xtables-nft-multi
+lrwxrwxrwx 1 root root        34 kwi 13 17:42 iptables-restore -> /etc/alternatives/iptables-restore
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 iptables-restore-translate -> xtables-nft-multi
+lrwxrwxrwx 1 root root        31 kwi 13 17:42 iptables-save -> /etc/alternatives/iptables-save
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 iptables-translate -> xtables-nft-multi
+-rwxr-xr-x 1 root root     68464 mar 24  2022 irqbalance
+-rwxr-xr-x 1 root root     35208 mar 24  2022 irqbalance-ui
+-rwxr-xr-x 1 root root     14712 lut 21  2022 isosize
+-rwxr-xr-x 1 root root     15937 gru  2  2021 ispell-autobuildhash
+lrwxrwxrwx 1 root root        11 kwi 13 17:42 iucode-tool -> iucode_tool
+-rwxr-xr-x 1 root root     59736 paź  7  2021 iucode_tool
+-rwxr-xr-x 1 root root     35048 mar 25  2022 iwconfig
+-rwxr-xr-x 1 root root     22760 mar 25  2022 iwevent
+-rwxr-xr-x 1 root root     14568 mar 25  2022 iwgetid
+-rwxr-xr-x 1 root root     39304 mar 25  2022 iwlist
+-rwxr-xr-x 1 root root     18664 mar 25  2022 iwpriv
+-rwxr-xr-x 1 root root     14488 mar 25  2022 iwspy
+-rwxr-xr-x 1 root root     18600 gru 16 15:14 kbdrate
+-rwxr-xr-x 1 root root     30872 mar 24  2022 kerneloops
+-rwxr-xr-x 1 root root     31112 gru 14  2021 killall5
+-rwxr-xr-x 1 root root     27000 lut 21  2022 ldattach
+-rwxr-xr-x 1 root root       387 lip  7  2022 ldconfig
+-rwxr-xr-x 1 root root   1213960 lip  7  2022 ldconfig.real
+-rwxr-xr-x 1 root root      4398 lip  5  2022 locale-gen
+-rwxr-xr-x 1 root root    104696 maj 25  2022 logrotate
+-rwxr-xr-x 1 root root     14496 cze  2  2022 logsave
+-rwxr-xr-x 1 root root     72200 lut 21  2022 losetup
+-rwxr-xr-x 1 root root     35128 maj 27  2022 lpadmin
+-rwxr-xr-x 1 root root     14696 maj 27  2022 lpc
+-rwxr-xr-x 1 root root     14648 maj 27  2022 lpinfo
+-rwxr-xr-x 1 root root     14648 maj 27  2022 lpmove
+lrwxrwxrwx 1 root root         9 kwi 13 17:42 lsmod -> /bin/kmod
+lrwxrwxrwx 1 root root         9 kwi 13 17:42 lspcmcia -> pccardctl
+-rwxr-xr-x 1 root root      6812 gru 30  2021 make-ssl-cert
+lrwxrwxrwx 1 root root         8 kwi 13 17:42 mkdosfs -> mkfs.fat
+-rwxr-xr-x 1 root root    133752 cze  2  2022 mke2fs
+-rwxr-xr-x 1 root root     14712 lut 21  2022 mkfs
+-rwxr-xr-x 1 root root     22904 lut 21  2022 mkfs.bfs
+-rwxr-xr-x 1 root root     35128 lut 21  2022 mkfs.cramfs
+lrwxrwxrwx 1 root root         6 kwi 13 17:42 mkfs.ext2 -> mke2fs
+lrwxrwxrwx 1 root root         6 kwi 13 17:42 mkfs.ext3 -> mke2fs
+lrwxrwxrwx 1 root root         6 kwi 13 17:42 mkfs.ext4 -> mke2fs
+-rwxr-xr-x 1 root root     52048 mar 23  2022 mkfs.fat
+-rwxr-xr-x 1 root root     43400 lut 21  2022 mkfs.minix
+lrwxrwxrwx 1 root root         8 kwi 13 17:42 mkfs.msdos -> mkfs.fat
+lrwxrwxrwx 1 root root         6 kwi 13 17:42 mkfs.ntfs -> mkntfs
+lrwxrwxrwx 1 root root         8 kwi 13 17:42 mkfs.vfat -> mkfs.fat
+-rwxr-xr-x 1 root root     22704 lut  2 10:21 mkhomedir_helper
+-rwxr-xr-x 1 root root     12453 paź 27 19:44 mkinitramfs
+-rwxr-xr-x 1 root root     14648 cze  2  2022 mklost+found
+-rwxr-xr-x 1 root root     72072 lis  1 12:56 mkntfs
+-rwxr-xr-x 1 root root     47488 lut 21  2022 mkswap
+-rwxr-xr-x 1 root root   2194240 gru 13 13:38 ModemManager
+lrwxrwxrwx 1 root root         9 kwi 13 17:42 modinfo -> /bin/kmod
+lrwxrwxrwx 1 root root         9 kwi 13 17:42 modprobe -> /bin/kmod
+lrwxrwxrwx 1 root root        11 kwi 13 17:42 mount.fuse -> mount.fuse3
+-rwxr-xr-x 1 root root     18736 mar 23  2022 mount.fuse3
+lrwxrwxrwx 1 root root        15 kwi 13 17:42 mount.lowntfs-3g -> /bin/lowntfs-3g
+lrwxrwxrwx 1 root root        13 kwi 13 17:42 mount.ntfs -> mount.ntfs-3g
+lrwxrwxrwx 1 root root        12 kwi 13 17:42 mount.ntfs-3g -> /bin/ntfs-3g
+lrwxrwxrwx 1 root root        31 mar  3 14:14 netplan -> ../share/netplan/netplan.script
+-rwxr-xr-x 1 root root   3255560 cze  9  2022 NetworkManager
+-rwxr-xr-x 1 root root     76520 lis 24 13:05 newusers
+-rwxr-xr-x 1 root root     18736 mar 24  2022 nfnl_osf
+-rwxr-xr-x 1 root root     26856 sie 10  2022 nft
+-rwxr-xr-x 1 root root     14640 lis 24 13:05 nologin
+-rwxr-xr-x 1 root root     51592 lis  1 12:56 ntfsclone
+-rwxr-xr-x 1 root root     35200 lis  1 12:56 ntfscp
+-rwxr-xr-x 1 root root     22912 lis  1 12:56 ntfslabel
+-rwxr-xr-x 1 root root     63888 lis  1 12:56 ntfsresize
+-rwxr-xr-x 1 root root     51592 lis  1 12:56 ntfsundelete
+-rwxr-xr-x 1 root root      2228 lip 20  2019 on_ac_power
+-rwxr-xr-x 1 root root    838080 lip 14  2022 openvpn
+-rwxr-xr-x 1 root root     14792 sie 24  2022 ownership
+-rwxr-xr-x 1 root root     20992 lut  7  2022 pam-auth-update
+-rwxr-sr-x 1 root shadow   22680 lut  2 10:21 pam_extrausers_chkpwd
+-rwxr-xr-x 1 root root     30872 lut  2 10:21 pam_extrausers_update
+-rwxr-xr-x 1 root root      2890 sie 12  2020 pam_getenv
+-rwxr-xr-x 1 root root     14488 lut  2 10:21 pam_timestamp_check
+-rwxr-xr-x 1 root root      4170 mar 24  2022 paperconfig
+-rwxr-xr-x 1 root root     88472 mar 24  2022 parted
+-rwxr-xr-x 1 root root     14720 mar 24  2022 partprobe
+-rwxr-xr-x 1 root root     22904 mar 24  2022 pccardctl
+-rwxr-xr-x 1 root root     14712 lut 21  2022 pivot_root
+-rwxr-xr-x 1 root root    154168 mar 18  2022 plymouthd
+lrwxrwxrwx 1 root root        14 mar 20 15:32 poweroff -> /bin/systemctl
+-rwsr-xr-- 1 root dip     424512 lut 24  2022 pppd
+-rwxr-xr-x 1 root root     18832 lut 24  2022 pppdump
+-rwxr-xr-x 1 root root     22832 lut 24  2022 pppoe-discovery
+-rwxr-xr-x 1 root root     18736 lut 24  2022 pppstats
+-rwxr-xr-x 1 root root     64568 mar 24  2022 pptp
+-rwxr-xr-x 1 root root      6616 mar 24  2022 pptpsetup
+-rwxr-xr-x 1 root root     51336 lis 24 13:05 pwck
+-rwxr-xr-x 1 root root     47112 lis 24 13:05 pwconv
+-rwxr-xr-x 1 root root     43016 lis 24 13:05 pwunconv
+-rwxr-xr-x 1 root root     22936 lut 21  2022 readprofile
+lrwxrwxrwx 1 root root        14 mar 20 15:32 reboot -> /bin/systemctl
+-rwxr-xr-x 1 root root      2932 gru  2  2021 remove-default-ispell
+-rwxr-xr-x 1 root root      2931 gru  2  2021 remove-default-wordlist
+-rwxr-xr-x 1 root root      1099 mar 23  2022 remove-shell
+-rwxr-xr-x 1 root root     67896 cze  2  2022 resize2fs
+-rwxr-xr-x 1 root root     30936 lut 21  2022 rfkill
+lrwxrwxrwx 1 root root         9 kwi 13 17:42 rmmod -> /bin/kmod
+lrwxrwxrwx 1 root root        21 kwi 13 17:42 rmt -> /etc/alternatives/rmt
+-rwxr-xr-x 1 root root     59976 lut 15 16:45 rmt-tar
+-rwxr-xr-x 1 root root    785600 maj  2  2022 rsyslogd
+-rwxr-xr-x 1 root root     28992 mar 24  2022 rtacct
+-rwxr-xr-x 1 root root     35192 lut 21  2022 rtcwake
+-rwxr-xr-x 1 root root     14720 mar 25  2022 rtkitctl
+-rwxr-xr-x 1 root root     92560 mar 24  2022 rtmon
+lrwxrwxrwx 1 root root        14 mar 20 15:32 runlevel -> /bin/systemctl
+-rwxr-xr-x 1 root root     55672 lut 21  2022 runuser
+-rwxr-xr-x 1 root root     72400 mar 27  2022 saned
+-rwxr-xr-x 1 root root      3303 gru  2  2021 select-default-ispell
+-rwxr-xr-x 1 root root      3284 gru  2  2021 select-default-wordlist
+-rwxr-xr-x 1 root root      9097 lut 15  2022 service
+-rwxr-xr-x 1 root root     14648 mar 24  2022 setcap
+-rwxr-xr-x 1 root root     14568 gru 16 15:14 setvesablank
+-rwxr-xr-x 1 root root     14632 gru 16 15:14 setvtrgb
+-rwxr-xr-x 1 root root    104824 lut 21  2022 sfdisk
+-rwxr-xr-x 1 root root    166384 mar 23  2022 sgdisk
+-rwxr-xr-x 1 root root       885 lis 11  2021 shadowconfig
+lrwxrwxrwx 1 root root        14 mar 20 15:32 shutdown -> /bin/systemctl
+-rwxr-xr-x 1 root root     64328 lut 24  2022 spice-vdagentd
+-rwxr-xr-x 1 root root     48488 maj 25  2022 start-stop-daemon
+-rwxr-xr-x 1 root root    204904 kwi  3 20:00 sudo_logsrvd
+-rwxr-xr-x 1 root root    109912 kwi  3 20:00 sudo_sendlog
+-rwxr-xr-x 1 root root     43384 lut 21  2022 sulogin
+-rwxr-xr-x 1 root root     22904 lut 21  2022 swaplabel
+-rwxr-xr-x 1 root root     22904 lut 21  2022 swapoff
+-rwxr-xr-x 1 root root     43384 lut 21  2022 swapon
+-rwxr-xr-x 1 root root     18808 lut 21  2022 switch_root
+-rwxr-xr-x 1 root root     30960 lut 25  2022 sysctl
+-rwxr-xr-x 1 root root       936 lut 15 16:45 tarcat
+-rwxr-xr-x 1 root root    628816 mar 24  2022 tc
+lrwxrwxrwx 1 root root        14 mar 20 15:32 telinit -> /bin/systemctl
+-rwxr-xr-x 1 root root    547432 mar  8 12:28 thermald
+-rwxr-xr-x 1 root root     92608 mar 24  2022 tipc
+-rwxr-xr-x 1 root root    105016 cze  2  2022 tune2fs
+-rwxr-xr-x 1 root root       106 kwi  3 13:03 tzconfig
+-rwxr-xr-x 1 root root       517 sty  4  2022 u-d-c-print-pci-ids
+-rwxr-xr-x 1 root root      4938 lut 16  2022 ufw
+-rwxr-xr-x 1 root root     14640 kwi  7  2022 umount.udisks2
+-rwxr-sr-x 1 root shadow   26776 lut  2 10:21 unix_chkpwd
+-rwxr-xr-x 1 root root     30872 lut  2 10:21 unix_update
+-rwxr-xr-x 1 root root      5394 gru  5 13:22 update-ca-certificates
+-rwxr-xr-x 1 root root      9366 kwi  8  2020 update-catalog
+-rwxr-xr-x 1 root root      1182 lis 19  2019 update-cracklib
+lrwxrwxrwx 1 root root        24 kwi 13 17:42 update-default-aspell -> update-dictcommon-aspell
+-rwxr-xr-x 1 root root      9910 gru  2  2021 update-default-ispell
+-rwxr-xr-x 1 root root      7680 gru  2  2021 update-default-wordlist
+-rwxr-xr-x 1 root root      1028 gru  2  2021 update-dictcommon-aspell
+-rwxr-xr-x 1 root root       782 gru  2  2021 update-dictcommon-hunspell
+-rwxr-xr-x 1 root root      5852 sie 21  2016 update-fonts-alias
+-rwxr-xr-x 1 root root      4076 sie 21  2016 update-fonts-dir
+-rwxr-xr-x 1 root root      6244 sie 21  2016 update-fonts-scale
+-rwxr-xr-x 1 root root        64 gru  2 16:18 update-grub
+lrwxrwxrwx 1 root root        11 kwi 13 17:42 update-grub2 -> update-grub
+-rwxr-xr-x 1 root root       301 mar 27  2015 update-grub-gfxpayload
+-rwxr-xr-x 1 root root       470 wrz 26  2022 update-gsfontmap
+-rwxr-xr-x 1 root root       596 maj  9  2022 update-icon-caches
+-rwxr-xr-x 1 root root      5969 gru 24  2020 update-inetd
+-rwxr-xr-x 1 root root      1700 lut  6  2022 update-info-dir
+-rwxr-xr-x 1 root root      6906 lut  8  2022 update-initramfs
+-rwxr-xr-x 1 root root      3063 lip  5  2022 update-locale
+-rwxr-xr-x 1 root root      9613 gru 11  2021 update-mime
+-rwxr-xr-x 1 root root     35392 mar 23  2022 update-passwd
+-rwxr-xr-x 1 root root      1753 sie 30  2021 update-pciids
+-rwxr-xr-x 1 root root     17324 gru  7  2021 update-rc.d
+-rwxr-xr-x 1 root root      7605 sty 31 12:57 update-secureboot-policy
+-rwxr-xr-x 1 root root      3806 mar 23  2022 update-shells
+-rwxr-xr-x 1 root root     17284 lut 27  2019 update-xmlcatalog
+-rwxr-xr-x 1 root root      1596 gru  2 16:18 upgrade-from-grub-legacy
+-rwxr-xr-x 1 root root     61096 mar 25  2022 usb_modeswitch
+-rwxr-xr-x 1 root root     27418 mar 25  2022 usb_modeswitch_dispatcher
+-rwxr-xr-x 1 root root     88680 mar 25  2022 usbmuxd
+-rwxr-xr-x 1 root root    130720 lis 24 13:05 useradd
+-rwxr-xr-x 1 root root     88936 lis 24 13:05 userdel
+-rwxr-xr-x 1 root root    126424 lis 24 13:05 usermod
+-rwxr-xr-x 1 root root     31576 lut 21  2022 uuidd
+-rwxr-xr-x 1 root root      1773 lip  5  2022 validlocale
+-rwxr-xr-x 1 root root     14488 gru 16 15:14 vcstime
+-rwxr-xr-x 1 root root     31296 mar 24  2022 vdpa
+lrwxrwxrwx 1 root root         4 kwi 13 17:42 vigr -> vipw
+-rwxr-xr-x 1 root root     57888 lis 24 13:05 vipw
+-rwxr-xr-x 1 root root    225064 kwi  3 20:00 visudo
+-rwxr-xr-x 1 root root     14928 sie 24  2022 vpddecode
+-rwxr-xr-x 1 root root     39288 lut 21  2022 wipefs
+-rwxr-xr-x 1 root root      1735 kwi  4  2022 wpa_action
+-rwxr-xr-x 1 root root    143680 cze  3  2022 wpa_cli
+-rwxr-xr-x 1 root root   3397048 cze  3  2022 wpa_supplicant
+-rwxr-xr-x 1 root root     99272 mar 24  2022 xtables-legacy-multi
+lrwxrwxrwx 1 root root        17 kwi 13 17:42 xtables-monitor -> xtables-nft-multi
+-rwxr-xr-x 1 root root    224296 mar 24  2022 xtables-nft-multi
+-rwxr-xr-x 1 root root     63816 lip  7  2022 zic
+-rwxr-xr-x 1 root root     55816 lut 21  2022 zramctl

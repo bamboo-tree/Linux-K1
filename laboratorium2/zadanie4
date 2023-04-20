@@ -1,0 +1,11 @@
+a)
+cp `find ./roboczy/ | grep "\./roboczy/[abg-n].*"` ./kosz
+
+b)
+cd ./roboczy
+ls | grep ".*la$" | tr aeo AEO
+[nie dziala za dobrze, bo zamienia wszystkie litery]
+
+c)
+cd roboczy
+cp `find | grep "\./c.*0[1-9]$"` ../kosz

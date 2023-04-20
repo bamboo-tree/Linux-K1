@@ -1,0 +1,4 @@
+/usr/src/linux-headers-5.19.0-32-generic/scripts/mod
+/usr/src/linux-hwe-5.19-headers-5.19.0-38/scripts/mod
+/usr/src/linux-hwe-5.19-headers-5.19.0-32/scripts/mod
+/usr/src/linux-headers-5.19.0-38-generic/scripts/mod
