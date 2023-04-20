@@ -1,0 +1,2 @@
+while(true); do ps u; sleep 1; done
+

@@ -1,0 +1,8 @@
+set dwa=2
+export trzy=3
+
+[roznica polega na tym, ze do wywolania zmiennej zapisaniej przy uzycu export trzeba uzyc $nazwa, natomiast przy set trzeba podac tylko nazwe}
+
+echo $dwa
+echo trzy
+

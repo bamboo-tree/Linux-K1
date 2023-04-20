@@ -1,0 +1,9 @@
+srednia()
+> {
+> export suma=0
+> for((i = 0; i < $#; i++)); do suma=`expr $suma + $i`; done
+> suma=`expr $suma / $#`
+> echo srednia = $suma
+> echo $*
+> }
+

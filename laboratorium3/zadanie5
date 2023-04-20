@@ -1,0 +1,7 @@
+plik()
+{
+for((i = 1; i <= 30; i++)); do touch plik$i.txt; done
+ls
+}
+
+[lepiej nie uruchamiac w waznych folderach]
