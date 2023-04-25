@@ -1,3 +1,2 @@
-mkdir dir; touch ./dir/lista; find -type f | cat > ./dir/lista; for ((i = 1; i < `find -type f | wc -l`; i++)); do mv `cat ./dir/lista | head -$i | tail -1` plik$i; done; rm -R ./dir
-
-[pewnie da sie prosciej, ale dziala w wiekszosci przypadkow]
+a=0
+for i in `find -type f`; do a=$((a+1)); mv $i "plik$a"; done
