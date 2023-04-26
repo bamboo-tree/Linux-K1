@@ -1,8 +1,8 @@
 a)
-sed -n '/^#/!p' firewall > firewal2
+sed 's/#[^!].*//' firewall > firewall2; rm firewall; mv firewall2 firewall
 
 b)
-sed 's/\-s\ 192\.168\.1\.1\/24/XXXXXXX/p' firewallNoComments > firewall
+sed 's/\-s\ 192\.168\.1\.1\/24/\-d\ 10\.1\.2\.1\/24/' firewall > firewall2; rm firewall; mv firewall2 firewall
 
 c)
 sed 's/\-s\ 192\.168\.1\.1\/24//p' firewallNoComments > firewall
