@@ -1,4 +1,1 @@
-for f in *.{jpg,jpeg,JPG,JPEG}; do echo $f; done
-
-z tym cos kombinowac
-
+for i in `find -type f`; do mv $i `echo $i | sed -n 's/JPG/jpg/p; s/jpeg/jpg/p; s/JPEG/jpg/p'`; done
