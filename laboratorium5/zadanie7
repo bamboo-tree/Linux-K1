@@ -1,0 +1,26 @@
+.PHONY: clean
+.SUFIXES: .c .a .o
+
+VPATH = src incl
+
+
+
+%.o: %.c
+	gcc -c $<
+%: %.o
+	gcc -o $@ $^ -L./lib -I./incl
+
+
+
+thebeatles: thebeatles.o libgr.a libpj.a
+thebeatles.o: thebeatles.c
+libgr.a: pr.o pg.o
+	ar rs $@ $^
+pr.o: pr.c
+pg.o: pg.c
+libpj.a: pp.o pj.o
+	ar rs $@ $^
+pp.o: pp.c
+pj.o: pj.c
+clean:
+	rm -f thebeatles *.o ./lib/*.a 
