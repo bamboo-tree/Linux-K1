@@ -1,0 +1,8 @@
+sed 's/[^a]//g' [plik] | awk '{ print length }'
+
+zliczanie wystapien litery 'a' w pliku tekstowym
+
+
+
+
+sed -n 's/6 czerwca 1944/06\.06\.1944/p' [plik] > temp; rm [plik]; mv temp [plik]

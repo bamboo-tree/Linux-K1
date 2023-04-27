@@ -1,0 +1,9 @@
+funkcja wykonujaca polecenie
+
+z2() { echo ilosc argumentow: $#; if(( $# < 2 )); then echo mniej niz 2; return 1; else echo wiecej niz 2; for(( i = $#; i > 0; i-- )); do echo "${!i}"; done; fi }
+
+
+
+zeby uzyskac zwracana wartosc
+
+z2 [jakies argumenty]; eho $?

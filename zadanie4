@@ -1,0 +1,62 @@
+wersja 1
+
+.PHONY: clean
+.SUFIXES: .c .o .a .so
+
+
+
+myApp: mainApplication.o scalograms.a osciloscope.so
+	gcc -o $@ $^
+mainApplication.o: mainApplication.c
+	gcc -c $< -o $@
+
+
+scalograms.a: drawScalogram.o createScalogramPath.o
+	ar rs $@ $^
+drawScalogram.o: drawScalogram.c
+	gcc -c $< -o $@
+createScalogramPath.o: createScalogramPath.c
+	gcc -c $< -o $@
+	
+
+osciloscope.so: drawOsciloscope.o createOsciloscopePath.o
+	gcc -shared -o $@ $^
+drawOsciloscope.o: drawOsciloscope.c
+	gcc -fPIC -c $<
+createOsciloscopePath.o: createOsciloscopePath.c
+	gcc -fPIC -c $<
+	
+clean:
+	rm *.o *.a *.so
+	
+	
+##########################################################################################
+wersja 2
+
+.PHONY: clean
+.SUFIXES: .c .o .a .so
+
+
+%.o: %.c
+	gcc -c $< -o $@	
+
+
+
+myApp: mainApplication.o scalograms.a osciloscope.so
+	gcc -o $@ $^
+mainApplication.o: mainApplication.c
+
+
+drawScalogram.o: drawScalogram.c
+createScalogramPath.o: createScalogramPath.c
+scalograms.a: drawScalogram.o createScalogramPath.o
+	ar rs $@ $^
+
+
+drawOsciloscope.o: drawOsciloscope.c
+createOsciloscopePath.o: createOsciloscopePath.c
+osciloscope.so: drawOsciloscope.o createOsciloscopePath.o
+	gcc -shared -o $@ $^
+
+clean:
+	rm *.o *.a *.so
